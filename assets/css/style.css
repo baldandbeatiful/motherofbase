@@ -1,0 +1,161 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+	background: #7896D8;
+	font-family: "Titan One", sans-serif;
+}
+
+main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#content{
+	margin-top: 70px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+#img-col{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 1500px;
+}
+
+#info{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-block: 35px;
+}
+
+h1{
+	font-size: 60px;
+	font-weight: 800;
+}
+
+p {
+	font-size: 26px;
+	margin-block: 30px;
+}
+
+span{
+	font-size: 22px;
+	font-weight: 300;
+}
+
+#social{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-block: 30px;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+	background: #000;
+	width: 64px;
+	height: 64px;
+	font-size: 30px;
+	border-radius: 100px;
+	margin-inline: 10px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+	#img-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.illu{
+	max-width: 150px;
+}
+
+#logo{
+	width: 350px !important;
+}
+
+h1{
+	font-size: 26px;
+}
+
+p{
+	font-size: 16px;
+	margin-block: 15px;
+	width: 250px;
+}
+
+span{
+	font-size: 12px;
+	font-weight: 800;
+}
+
+#info{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+}
